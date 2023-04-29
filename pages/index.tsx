@@ -2,6 +2,8 @@ import Image from 'next/image';
 //import { Inter } from 'next/font/google';
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Header from "../components/Header"; 
+import Hero from '../components/Hero';
 //import styles from '../styles/globals.css';
 
 
@@ -14,9 +16,12 @@ import Head from 'next/head';
         <title>Create Next App</title>
       </Head>
        
-       {/* Header */}
+      <Header />
 
        {/* Hero */}
+       <section id='hero'>
+        <Hero />
+       </section>
 
        {/* About */}
         
